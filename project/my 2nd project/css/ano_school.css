@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url("../image/download.jpg");
+    
+}
+header#Acs-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url("../image/header-bacground.png");
+}
+#Acs-logo img {
+    height: 70px;
+}
+#menubaar ul {
+    display: flex;
+    list-style: none;
+    grid-gap: 36px;
+    font-size: 18px;
+    font-weight: bolder;
+    font-family: emoji;
+    color: #5f6368;
+}
+#Acs-logo {
+    display: flex;
+    align-items: center;
+    gap: 21px;
+}
+div#menubaar {
+    padding: 0 35px 0px 0px;
+}
+#Acs-logo h3 {
+    color: green;
+    font-family: Race Sport;
+    font-weight: bold;
+    font-size: 25px;
+}
+#Acs-logo h3:hover{
+    opacity: 0.60;
+}
+#menubaar li:hover {
+color: black;
+cursor: pointer;
+}
+
+
+
+
+
+/* ---------------------footer--------------------------------- */
+footer#Acs-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background:#e5eff1 url("../image/foo-bg.png");
+}
+div#schoollogo {
+    display: flex;
+    align-items: center;
+    grid-gap: 347px;
+}
+#schoollogo img{
+    height: 66px;
+}
+div#sochilmedia {
+    display: flex;
+    grid-gap: 48px;
+    padding: 0 18px 0px 0px;
+}
+#schoollogo p {
+    font-size: 15px;
+    font-family: monospace;
+    font-weight: bolder;
+    display: flex;
+}
