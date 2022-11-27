@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>paint app</title>
+    <link rel="stylesheet" href="utlility-style/utility-01.css">
+    <link rel="stylesheet" href="utlility-style/bootstrap-icons.css">
+
+</head>
+
+<body class="Bg-Sky-400 f-f-poppins">
+    <div class="w-screen h-screen flex justify-center a-l-i-cen">
+        <div class="py-4 px-2 Bg-Slate-100 bor-r-5x w-40">
+
+            <div class=" pb-5">
+                <p class="fo-w-900 Gray-700">Shapes</p>
+                <div class=" flex gap-4">
+                    <i class="bi bi-square"></i>
+                    Rectangale
+                </div>
+
+                <div class=" flex gap-4">
+                    <i class="bi bi-circle"></i>Circle
+                </div>
+                <div class=" flex gap-4">
+                    <i class="bi bi-triangle"></i>
+                    Tringlr
+                </div>
+                <div class=" flex gap-4">
+                    <input type="checkbox" name="" id="">
+                    Fill color
+                </div>
+            </div>
+
+            <div class="">
+                <div class="mb-4">
+                    <p class="fo-w-900 Gray-700">option</p>
+                    <div class=" flex gap-4">
+                        <i class="bi bi-brush"></i>
+                        Brush
+                    </div>
+
+                    <div class=" flex gap-4"> <i class="bi bi-eraser"></i>Eraser</div>
+                    <div class="mb-2 mt-2">
+                        <input class="h-1 w-40" type="range" name="" id="">
+                    </div>
+                    <div class="">
+                        <p class="fo-w-900 Gray-700 mt-3 mb-4">Color</p>
+                        <div class="flex flex-row gap-3 pt-1 pb-1 align-it-cen justify-center">
+                            <div class="bor-1x bor-sol Bo-Blue-900 h-4 w-4 bor-r-35x Bg-Slate-100"></div>
+                            <div class="bor-1x bor-sol Bo-Cyan-100 h-4 w-4 bor-r-35x Bg-black"></div>
+                            <div class="bor-1x bor-sol Bo-Cyan-100 h-4 w-4 bor-r-35x Bg-Red-700"></div>
+                            <div class="bor-1x bor-sol Bo-Cyan-100 h-4 w-4 bor-r-35x Bg-Sky-700"></div>
+                            <div class="bor-1x bor-sol Bo-Cyan-100 h-4 w-4 bor-r-35x Bg-Green-700">
+                                <!-- <input type="color" name="" id=""> -->
+                            </div>
+                        </div>
+                        
+                        <div class="flex a-l-i-cen jus-con-cen flex-col mb-2 mt-2">
+                            <div
+                                class="h-9 bor-r-5x fo-w-900 bor-sol mt-3 t-a-c w-36 flex justify-center a-l-i-cen bor-1x Bo-Gray-400 Bg-Sky-100">
+                                Clear Canvas</div>
+                            <div
+                                class="h-9 bor-r-5x fo-w-900 Slate-100 mt-3 t-a-c w-36 flex justify-center a-l-i-cen bor-2x Bo-Gray-500 Bg-Sky-500">
+                                Save As image</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="h-3__5 bor-r-5x Bg-Slate-100 w-3__5 ml-2">
+           <canvas class="h-full w-full"></canvas>
+        </div>
+    </div>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
